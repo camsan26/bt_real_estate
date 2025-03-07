@@ -35,6 +35,7 @@ SECRET_KEY = SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['btrealestate-production-74f1.up.railway.app']
+# CSRF for Railway
 CSRF_TRUSTED_ORIGINS = [
     'https://btrealestate-production-74f1.up.railway.app'
 ]
